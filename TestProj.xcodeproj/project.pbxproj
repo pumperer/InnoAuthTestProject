@@ -34,7 +34,7 @@
 		14916C6F1A12352000131B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14916C711A12352000131B76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		14916C741A12352000131B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		14AB7B611A31B55900E73FE0 /* libInnoAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libInnoAuth.a; path = ../../_InnoAuth/libInnoAuth.a; sourceTree = "<group>"; };
+		14AB7B611A31B55900E73FE0 /* libInnoAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libInnoAuth.a; path = ../../../../Shared/InnoAuth/libInnoAuth.a; sourceTree = "<group>"; };
 		14C3F2DC1A14934900BC2EAE /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		14C3F2DE1A14935900BC2EAE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		14C3F2E01A14936000BC2EAE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -306,14 +306,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/Users/hsshin/Documents/_InnoAuth/include,
+					/Users/Shared/InnoAuth/include,
 				);
 				INFOPLIST_FILE = TestProj/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/hsshin/Documents/_InnoAuth,
+					/Users/Shared/InnoAuth,
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = herosky;
@@ -333,14 +333,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/Users/hsshin/Documents/_InnoAuth/include,
+					/Users/Shared/InnoAuth/include,
 				);
 				INFOPLIST_FILE = TestProj/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/hsshin/Documents/_InnoAuth,
+					/Users/Shared/InnoAuth,
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = herosky;
